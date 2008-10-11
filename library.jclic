@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="%PROJECT_NAME%" version="0.1.3" type="library">
+ <settings>
+  <title>%PROJECT_TITLE%</title>
+  <revision description="created" date="%PROJECT_DATE%" />
+  <descriptors />
+ </settings>
+ <sequence>
+  <item id="main" name="main">
+   <jump action="STOP" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.Menu" name="main">
+   <description>
+    <p>Menú principal</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Menú principal</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   %PROJECT_ELEMENTS%
+  </activity>
+ </activities>
+ <mediaBag />
+</JClicProject>
+

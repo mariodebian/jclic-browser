@@ -1,0 +1,68 @@
+jclic-browser (0.1.0-1) unstable; urgency=low
+
+  * Convert to python package (import jclic)
+  * Convert to CDBS
+
+ -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Sat, 11 Oct 2008 12:52:53 +0200
+
+jclic-browser (0.0.8gutsy2) gutsy; urgency=low
+
+  * Fix some *_msg lib objects
+
+ -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Mon, 08 Oct 2007 18:53:43 +0200
+
+jclic-browser (0.0.7) unstable; urgency=low
+
+  * New version minor bugs
+
+ -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Mon, 08 Oct 2007 15:42:31 +0200
+
+jclic-browser (0.0.6) unstable; urgency=low
+
+  * Add jclic.db to package
+  * Install JClicLib.py
+  * Append python path to jclic_browser.py
+
+ -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Tue, 12 Jun 2007 11:24:51 +0200
+
+jclic-browser (0.0.5) unstable; urgency=low
+
+  * Update build for python 2.4 version
+
+ -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Wed, 16 Aug 2006 18:08:28 +0200
+
+jclic-browser (0.0.4) unstable; urgency=low
+
+  * Add ClientThread class to download and write into statusbar threaded.
+  * Clean some parts of code, use pycheck to do it
+  * Remove not used modules. 
+
+ -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Sat, 15 Apr 2006 15:08:33 +0200
+
+jclic-browser (0.0.3) unstable; urgency=low
+
+  * Create library.jclic xml from template. Use libxml for python??
+  * Don't delete checked items in data list.
+  * Ask for download check-in items.
+  * Use status bar to show some info.
+  * Add ask_msg function to ask questions (like donwloads).
+  * Read JClic home conf and use it to write library.jclic
+  * New file library.jclic
+  * Update pot and es.po translations.
+
+ -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Sat, 25 Mar 2006 20:32:48 +0100
+
+jclic-browser (0.0.2) unstable; urgency=low
+
+  * Fixed some bugs
+  * Create /var/lib/jclic_browser ZIP IMG publics dir (chmod 777).
+  * Gui download img and zip from page and update info.
+  * Use zip_ulrs and img_urls sqlite tables to read urls info.
+
+ -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Sat,  4 Mar 2006 17:59:50 +0100
+
+jclic-browser (0.0.1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Mario Izquierdo (mariodebian) <mariodebian@gmail.com>  Fri, 14 Oct 2005 19:18:46 +0200

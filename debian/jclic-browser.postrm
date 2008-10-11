@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "$1" = "purge" ]; then
+  echo " * Deleting /var/lib/jclic_browser"
+  rm -rf /var/lib/jclic_browser
+fi
+
+#DEBHELPER#

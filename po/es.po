@@ -1,0 +1,368 @@
+# Spanish translations for jclic_browser package
+# Traducciones al español para el paquete jclic_browser.
+# Copyright (C) 2006 consoltux
+# mario <mariodebian@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: jclic_browser 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-11 11:03+0200\n"
+"PO-Revision-Date: 2008-10-11 11:06+0200\n"
+"Last-Translator: mario <mariodebian@gmail.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);"
+
+#: ../JClicLib.py:48 ../JClicLib.py:64 ../jclic_browser.py:409
+#: ../jclic_browser.py:443
+#, python-format
+msgid "Downloading %s ... "
+msgstr "Descargando %s ..."
+
+#: ../JClicLib.py:76
+msgid "Download inst file sucessfull, downloading rest of files"
+msgstr "Descargado archivo inst correctamente, descargando el resto de archivos"
+
+#: ../JClicLib.py:82
+#, python-format
+msgid "Downloading %s ..."
+msgstr "Descargando %s ..."
+
+#: ../JClicLib.py:98
+msgid "Download failed."
+msgstr "Error en la descarga"
+
+#: ../JClicLib.py:129
+msgid "CREATE_DATABASE: Creating database schema..."
+msgstr "CREATE_DATABASE: Creando esquema de base de datos..."
+
+#: ../JClicLib.py:164
+#, python-format
+msgid "ERROR: %s"
+msgstr "ERROR: %s"
+
+#: ../JClicLib.py:176
+#, python-format
+msgid "INFO: %s"
+msgstr "INFORMACIÓN: %s"
+
+#: ../jclic_browser.py:184
+#, python-format
+msgid "INIT: Empty database %s created."
+msgstr "INIT: Nueva base de datos %s creada."
+
+#: ../jclic_browser.py:186
+msgid "INIT: Error creating database. Check you have sqlite installed."
+msgstr "INIT: Error creando base de datos. Compruebe la instalación de sqlite."
+
+#: ../jclic_browser.py:193
+#, python-format
+msgid "INIT: ERROR conecting to database %s."
+msgstr "INIT: ERROR conectando a la base de datos %s."
+
+#: ../jclic_browser.py:247
+msgid "CHECK_POPULATE_DB: Calculating number of rows..."
+msgstr "CHECK_POPULATE_DB: Calculando número de filas..."
+
+#: ../jclic_browser.py:252
+msgid "The database is empty."
+msgstr "La base de datos está vacía."
+
+#: ../jclic_browser.py:266 ../jclic_browser.py:323
+msgid "Reading data..."
+msgstr "Cargando datos..."
+
+#: ../jclic_browser.py:279 ../jclic_browser.py:346
+#, python-format
+msgid "Row %d"
+msgstr "Fila %d"
+
+#: ../jclic_browser.py:292
+#, python-format
+msgid "Found %d activities"
+msgstr "Encontradas %d actividades."
+
+#: ../jclic_browser.py:294
+msgid "No activities found."
+msgstr "NO se encontraron actividades."
+
+#: ../jclic_browser.py:352
+msgid "Image not avalaible."
+msgstr "Imagen no disponible."
+
+#: ../jclic_browser.py:356
+msgid "Download image"
+msgstr "Descargar imagen"
+
+#: ../jclic_browser.py:365 ../jclic_browser.py:757
+msgid "Age"
+msgstr "Edad"
+
+#: ../jclic_browser.py:366 ../jclic_browser.py:769
+msgid "Language"
+msgstr "Idioma"
+
+#: ../jclic_browser.py:367 ../jclic_browser.py:763
+msgid "Descriptors"
+msgstr "Materias"
+
+#: ../jclic_browser.py:368 ../jclic_browser.py:775
+msgid "File"
+msgstr "Archivo"
+
+#: ../jclic_browser.py:370
+msgid "Yes"
+msgstr "Sí"
+
+#: ../jclic_browser.py:374
+msgid "No"
+msgstr "No"
+
+#: ../jclic_browser.py:375
+msgid "Activity file/s not avalaible."
+msgstr "Archivo/s de actividad no disponibles."
+
+#: ../jclic_browser.py:379
+msgid "Download Activity"
+msgstr "Descargar actividad"
+
+#: ../jclic_browser.py:386
+msgid "Description"
+msgstr "Descripción"
+
+#: ../jclic_browser.py:388
+#, python-format
+msgid "Activity: %(act)s   Language: %(lang)s   Downloaded: %(status)s"
+msgstr "Actividad: %(act)s    Idioma: %(lang)s     Descargado: %(status)s"
+
+#: ../jclic_browser.py:432
+#, python-format
+msgid "Created %s directory"
+msgstr "Directorio %s creado"
+
+#: ../jclic_browser.py:492
+msgid "Searching users..."
+msgstr "Buscando usuarios..."
+
+#: ../jclic_browser.py:496
+#, python-format
+msgid "User %s"
+msgstr "Usuario %s"
+
+#: ../jclic_browser.py:509 ../jclic_browser.py:529
+#, python-format
+msgid "Selected: %s"
+msgstr "Seleccionado %s"
+
+#: ../jclic_browser.py:518
+msgid "Please, select one or more activities."
+msgstr "Por favor, seleccione una o más actividades."
+
+#: ../jclic_browser.py:522
+msgid "Generating XML JClic library..."
+msgstr "Generando biblioteca JClic en XML"
+
+#: ../jclic_browser.py:531
+msgid "Please, select one or more users."
+msgstr "Por favor, seleccione uno o más usuarios."
+
+#: ../jclic_browser.py:561
+msgid "JClic-Browser"
+msgstr "Navegador JClic"
+
+#: ../jclic_browser.py:562
+msgid "Main library"
+msgstr "Biblioteca Principal"
+
+#: ../jclic_browser.py:571
+#, python-format
+msgid ""
+"User \"%s\" haven't run JClic yet, unselect him or run JClic with this user."
+msgstr ""
+"El usuario \"%s\" no ha ejecutado nunca JClic, deselecciónelo o ejecute "
+"JClic con ese usuario."
+
+#: ../jclic_browser.py:575
+#, python-format
+msgid "Read configuration file of user \"%s\"."
+msgstr "Leyendo archivo de configuración del usuario \"%s\"."
+
+#: ../jclic_browser.py:592
+#, python-format
+msgid "Error %s dir not found"
+msgstr "Error el directorio %s no existe"
+
+#: ../jclic_browser.py:595
+#, python-format
+msgid "%s found and exist"
+msgstr "%s encontrado y existe"
+
+#: ../jclic_browser.py:599
+#, python-format
+msgid "Library file of user \"%s\" not found, please run JClic with this user."
+msgstr ""
+"El archivo de biblioteca del usuario \"%s\" no se ha encontrado, por favor "
+"ejecute JClic con ese usuario."
+
+#: ../jclic_browser.py:605
+#, python-format
+msgid "Save library file of user \"%s\"."
+msgstr "Guardando biblioteca del usuario \"%s\"."
+
+#: ../jclic_browser.py:633 ../jclic_browser.py:642
+#, python-format
+msgid "Error writing data in \"%s\" user dir. Access Denied."
+msgstr ""
+"Error al escribir datos en el directorio del usuario \"%s\". Permiso "
+"denegado."
+
+#: ../jclic_browser.py:635 ../jclic_browser.py:647
+msgid "Data send to selected users sucesfully."
+msgstr "Datos enviados a los usuarios seleccionados correctamente."
+
+#: ../jclic_browser.py:649
+msgid ""
+"You don't have enought privileges to copy JClic library to some user's "
+"home.\n"
+"\n"
+"Please, read the jclic-browser README file."
+msgstr ""
+"No tiene suficientes permisos para copiar la librería JClic a algunos usuarios.\n"
+"\n"
+"Por favor, lea el README del paquete jclic-browser."
+
+#: ../jclic_browser.py:653
+msgid "hide hosts"
+msgstr "ocultar equipos"
+
+#: ../jclic_browser.py:659
+msgid "Help..."
+msgstr "Ayuda..."
+
+#: ../jclic_browser.py:677
+#, python-format
+msgid "Searching \"%s\" "
+msgstr "Buscando \"%s\" "
+
+#: ../jclic_browser.py:699
+msgid "Nothing to search :("
+msgstr "Nada que buscar :("
+
+#: ../jclic_browser.py:706
+msgid "Clean up filters"
+msgstr "Limpiando filtros"
+
+#: ../jclic_browser.py:716
+msgid "Zip file not found, download it?"
+msgstr "Archivo zip no encontrado, ¿descargar?"
+
+#: ../jclic_browser.py:718
+msgid "Downloading...."
+msgstr "Descargando...."
+
+#: ../jclic_browser.py:724
+#, python-format
+msgid "User don't want to download \"%s\""
+msgstr "El usuario no quiere descargar \"%s\""
+
+#: ../jclic_browser.py:738 ../jclic_browser.py:790
+msgid "Sel"
+msgstr "Sel"
+
+#: ../jclic_browser.py:745
+msgid "Id"
+msgstr "Id"
+
+#: ../jclic_browser.py:751
+msgid "Activity"
+msgstr "Actividad"
+
+#: ../jclic_browser.py:797
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: ../jclic_browser.py:808
+msgid "Property"
+msgstr "Propiedad"
+
+#: ../jclic_browser.py:866
+msgid "Exiting"
+msgstr "Saliendo"
+
+#: ../jclic_browser.glade:10
+msgid "JClic Browser"
+msgstr "Navegador JClic"
+
+#: ../jclic_browser.glade:80
+msgid "Send"
+msgstr "Enviar"
+
+#: ../jclic_browser.glade:97
+msgid "Refresh Database"
+msgstr "Actualizar BD"
+
+#: ../jclic_browser.glade:114
+msgid "Show All"
+msgstr "Mostrar todo"
+
+#: ../jclic_browser.glade:131
+msgid "Search"
+msgstr "Buscar"
+
+#: ../jclic_browser.glade:209
+msgid "Select one"
+msgstr "Seleccione una"
+
+#: ../jclic_browser.glade:503
+msgid "Network clients"
+msgstr "Usuarios de red"
+
+#: ../jclic_browser.glade:535
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../jclic_browser.glade:551
+msgid "Send to"
+msgstr "Enviar a"
+
+#: ../jclic_browser.glade:608
+msgid ""
+"Teacher software to send JClic activities to other computers based on a PXES "
+"classroom."
+msgstr ""
+"Aplicación para profesores que envía actividades JClic a los usuarios en un "
+"aula PXES."
+
+#: ../jclic_browser.glade:632
+msgid "translators_credits"
+msgstr "Mario Izquierdo <mariodebian@gmail.com>"
+
+#: ../jclic_browser.glade:639
+msgid "Downloading Database"
+msgstr "Descargando base de datos"
+
+#: ../jclic_browser.glade:736
+msgid "Close"
+msgstr "Cerrar"
+
+#: ../jclic_browser.glade:821
+msgid "Conecting..."
+msgstr "Conectando..."
+
+#~ msgid "QUESTION: %s, RESPONSE %s"
+#~ msgstr "PREGUNTA: %s, RESPUESTA %s"
+
+#~ msgid "DEBUG: %s"
+#~ msgstr "DEPURAR: %s"
+
+#~ msgid "Download sucessfull."
+#~ msgstr "Descarga completada."
+
+#~ msgid "Waiting..."
+#~ msgstr "Esperando..."
+
+#~ msgid "Toggle '%s' to: %s"
+#~ msgstr "Cambiando '%s' a '%s'"

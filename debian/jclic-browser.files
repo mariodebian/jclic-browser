@@ -1,0 +1,7 @@
+usr/bin/jclic-browser
+usr/share/jclic_browser/utils/*
+usr/share/jclic_browser/jclic_browser.py
+usr/share/jclic_browser/jclic_browser.glade
+usr/share/jclic_browser/library.jclic
+usr/share/locale/*
+var/lib/*

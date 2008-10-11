@@ -1,0 +1,7 @@
+../jclic_downloader.py
+../JClicLib.py
+../jclic_browser.py
+../jclic_browser.glade
+../downloader/jclic_downloader.py
+../downloader/PHPSerialize.py
+../downloader/PHPUnserialize.py

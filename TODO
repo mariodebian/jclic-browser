@@ -1,0 +1,5 @@
+TODO file for jclic-browser
+
+* Download in threads to not freeze gui.
+
+* Use gksu to create library.jclic

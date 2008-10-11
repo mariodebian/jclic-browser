@@ -1,0 +1,21 @@
+#!/bin/sh
+
+
+ACTION=$1
+shift
+ARGS=$@
+
+echo "ACTION=$ACTION"
+echo "ARGS='$ARGS'"
+
+if [ "$ACTION" = "create" ]; then
+    sh /usr/share/jclic_browser/utils/generate_jclic_home.sh $ARGS
+    exit $?
+elif [ "$ACTION" = "library" ]; then
+    sh /usr/share/jclic_browser/utils/copy_library.sh $ARGS
+    exit $?
+else
+    echo "unknow action"
+fi
+
+exit 0

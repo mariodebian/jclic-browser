@@ -1,0 +1,10 @@
+#!/bin/sh
+
+mkdir -p /var/lib/jclic_browser/zips
+mkdir -p /var/lib/jclic_browser/imgs
+
+chmod 777 /var/lib/jclic_browser/zips
+chmod 777 /var/lib/jclic_browser/imgs
+
+
+#DEBHELPER#

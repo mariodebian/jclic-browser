@@ -1,0 +1,84 @@
+=====================================
+          JClicBrowser
+=====================================
+
+JClicBrowser is a small pygtk app to search 
+and download jclic activities.
+
+You can select some apps and send to user account.
+
+This app is to being used in a PXES/LTSP classroom.
+
+JClicBrowser is GPL ;)
+
+Mario Izquierdo <mariodebian@gmail.com>
+
+
+=============
+Configuration
+=============
+
+You have to install sudo app in your system to
+have enought privileges to copy/create library files in every user's home.
+
+Open a terminal and su to root, then exec "visudo"
+
+# visudo
+
+Add a line like this:
+
+#=============================jclic teacher==================================
+YOUR_USERNAME    ALL=NOPASSWD: /usr/bin/jclicbrowser-sudo
+#============================================================================
+
+in YOUR_USERNAME put your system username.
+
+========
+Database
+========
+
+When jclic-browser runs first time it will create an empty sqlite 
+database in:
+
+   /home/_USERNAME_/.jclic_browser.db
+
+To populate database exec this:
+
+  $ sqlite ~/.jclic_browser.db < /usr/share/jclic_browser/utils/data.sql
+
+Database is very big and take a few time to populate.
+
+The file data.sql contains sql syntax to populate 3 tables:
+
+ jclic = activities table
+ zip_uls = url of each zip file
+ img_urls = url of each gif file
+
+To update data.sql with more recent information need to run
+some scripts:
+
+ $ /usr/share/jclic_browser/utils/jclic.sh
+
+ This ask to download 3 different things:
+   * List of all activities
+   * All zip
+   * All img
+
+ If you want to download all zips avalaible need at least 800 Mb
+ and some internet bandwich.
+
+ To recreate data.sql run as root:
+
+ # /usr/share/jclic_browser/utils/mostrar-infos.sh
+
+ This uncompress every zip found and read description of xml included file
+ to build data.sql with updated web jclic data.
+
+ Author give data.sql updated to 2 Mar 2006, and will update file
+ if needed.
+
+ For suggestions and questions please send mail to:
+
+    mariodebian@gmail.com
+    Subject   Jclic-browser
+    Language  spanish or english

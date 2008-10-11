@@ -1,0 +1,36 @@
+jclic-browser-0.0.4
+  * Add ClientThread class to download and write into statusbar threaded.
+  * Clean some parts of code, use pycheck to do it
+  * Remove not used modules.
+
+
+jclic-browser-0.0.3
+
+  * Create library.jclic xml from template. Use libxml for python??
+  * Don't delete checked items in data list.
+  * Ask for download check-in items.
+  * Use status bar to show some info.
+  * Add ask_msg function to ask questions (like donwloads).
+  * Read JClic home conf and use it to write library.jclic
+  * New file library.jclic
+  * Update pot and es.po translations.
+
+  Mario Izquierdo 25 Mar 2006
+
+jclic-browser-0.0.2
+
+  * Initial semi-complete release
+  * Download files in /var/lib/jclic_browser/ (777 dirs)
+  * Update activity data after download.
+
+  Mario Izquierdo 4 Mar 2006
+
+=============== BETA changelog =================
+
+
+ * Added l10n support with gettext python modules
+ * Spanish translation
+ * Process to update database based on shell scripts, soon put them into interface
+ * New version
+
+   Mario Izquierdo 26 Mar 2006

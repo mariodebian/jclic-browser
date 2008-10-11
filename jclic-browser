@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+if [ ! -e ~/.jclic_browser.db ]; then
+  [ -e /usr/share/jclic_browser/jclic.db.gz ] && \
+       zcat /usr/share/jclic_browser/jclic.db.gz > ~/.jclic_browser.db
+  [ -e /usr/share/jclic_browser/jclic.db ] && 
+       cp /usr/share/jclic_browser/jclic.db      > ~/.jclic_browser.db
+fi
+
+
+python -c 'import jclic; jclic.main()'

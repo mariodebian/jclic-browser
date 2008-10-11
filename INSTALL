@@ -1,0 +1,16 @@
+REQUIREMENTS:
+ You need python (2.3 or greater) and next libs:
+
+ * pygtk (>= 2.0 version)
+ * python gtk.glade
+ * python pango
+ * python sqlite
+ * python gettext
+ * python locale
+
+INSTALL
+ Simply:
+	make install
+
+
+Better use debian package.
