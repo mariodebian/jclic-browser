@@ -2,15 +2,22 @@ Source: jclic-browser
 Section: gnome
 Priority: optional
 Maintainer: Mario Izquierdo (mariodebian) <mariodebian@gmail.com>
-Build-Depends: debhelper (>= 4.0.0), python, python-support, cdbs
+Build-Depends: debhelper (>= 4.0.0), python-all, python-support, cdbs
 Standards-Version: 3.6.2
-XS-Python-Version: >= 2.4
 Vcs-Git: http://tcosproject.org/git/jclic-browser.git
 Vcs-Browser: http://tcosproject.org/cgit/cgit.cgi/jclic-browser.git/
 
 Package: jclic-browser
-Architecture: any
-Depends:  gksu, sqlite, python-gtk2, python-glade2, python-sqlite, ${python:Depends}, ${misc:Depends}, ${shlibs:Depends}
+Architecture: all
+Depends:  gksu, 
+          sqlite3,
+          python-gtk2,
+          python-glade2,
+          python-sqlite,
+          python-numpy,
+          ${python:Depends},
+          ${misc:Depends},
+          ${shlibs:Depends}
 XB-Python-Version: ${python:Versions}
 Description: JClic Teacher tool.
  Small app to send JClic activities to puppils.

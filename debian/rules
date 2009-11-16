@@ -12,4 +12,4 @@ clean::
 
 
 binary-predeb/jclic-browser::
-	gzip $(CURDIR)/debian/usr/share/jclic_browser/jclic.db
+	gzip $(CURDIR)/debian/jclic-browser/usr/share/jclic_browser/jclic.db

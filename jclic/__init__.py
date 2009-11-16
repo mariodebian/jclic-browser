@@ -37,7 +37,7 @@ import urllib2
 import threading
 
 import datetime
-from Numeric import array
+#from Numeric import array
 from gettext import gettext as _
 from gettext import bindtextdomain, textdomain
 from locale import setlocale, LC_ALL

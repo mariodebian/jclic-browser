@@ -13,6 +13,8 @@ exec:
 
 clean:
 	rm -f *~ *.pyc *.orig *.bak *-stamp
+	find -name *.pyc | xargs rm -f
+	find -name *~ | xargs rm -f
 	if [ -d debian/jclic-browser ]; then rm -rf debian/jclic-browser; fi
 	cd po && make clean
 
@@ -33,11 +35,11 @@ install:
 	install -d $(DESTDIR)/usr/bin
 	install -d -m 777 $(DESTDIR)/var/lib/$(project)/zips
 	install -d -m 777 $(DESTDIR)/var/lib/$(project)/imgs
-	install -d $(DESTDIR)/usr/lib/python2.4/site-packages/$(project)
+	install -d $(DESTDIR)/usr/lib/python2.5/site-packages/$(project)
 
 	# Installing JClicBrowser in  $(DESTDIR)
-	install -m 755 $(project).py $(DESTDIR)/usr/lib/python2.4/site-packages/$(project)
-	install -m 755 JClicLib.py $(DESTDIR)/usr/lib/python2.4/site-packages/$(project)
+	install -m 755 $(project).py $(DESTDIR)/usr/lib/python2.5/site-packages/$(project)
+	install -m 755 JClicLib.py $(DESTDIR)/usr/lib/python2.5/site-packages/$(project)
 	install -m 644 jclic_browser.glade $(DESTDIR)/usr/share/$(project)
 	install -m 644 library.jclic $(DESTDIR)/usr/share/$(project)
 	install -m 644 pixmaps/logo.png $(DESTDIR)/usr/share/$(project)
