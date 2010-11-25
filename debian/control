@@ -5,7 +5,7 @@ Maintainer: Mario Izquierdo (mariodebian) <mariodebian@gmail.com>
 Build-Depends: debhelper (>= 4.0.0), python-all, python-support, cdbs
 Standards-Version: 3.6.2
 Vcs-Git: http://tcosproject.org/git/jclic-browser.git
-Vcs-Browser: http://tcosproject.org/cgit/cgit.cgi/jclic-browser.git/
+Vcs-Browser: http://tcosproject.org/cgit/jclic-browser.git/
 
 Package: jclic-browser
 Architecture: all
